@@ -125,6 +125,12 @@ You cannot use gprof on all systems if you specify this option, and you may have
 -ftrack-macro-expansion=1
 Track locations of tokens across macro expansions. This allows the compiler to emit diagnostic about the current macro expansion stack when a compilation error occurs in a macro expansion. Using this option makes the preprocessor and the compiler consume more memory.
 
+-rdynamic
+This instructs the linker to add all symbols, not only used ones, to the
+dynamic symbol table. This option is needed for some uses of "dlopen" or to
+allow ///////obtaining backtraces///////// from within a program.
+
+
 -Wno-unused-local-typedefs 
 
 -disable-free 
