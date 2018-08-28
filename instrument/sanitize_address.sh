@@ -8,6 +8,11 @@
 # https://github.com/google/sanitizers/issues/796
 # solution is to use static linking
 
+# see also:
+# turn on sanitize in CMAKE
+# https://gist.github.com/jlblancoc/44be9d4d466f0a973b1f3808a8e56782
+
+
 CXX=${CXX:-g++}
 DBG=${DBG:-gdb}
 
