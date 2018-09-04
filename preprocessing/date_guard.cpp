@@ -1,5 +1,9 @@
 
 // note
+// //////// FIX THIS!!!!//////
+// the example below has a bug - the "day" component consists of two 
+// digit the logic will fail
+
 // this use case is inspired by real event at wt
 // some product needs to check whether certain functionality is 
 // considered deprecated at compile time, i.e.
